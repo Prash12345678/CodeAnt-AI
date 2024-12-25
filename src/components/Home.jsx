@@ -207,7 +207,7 @@ function Home({ onMenuClick }) {
             </div>
           </div>
 
-          <div className='w-full h-auto bg-white flex flex-col justify-center items-center px-6 '>
+          <div className='w-full h-auto bg-white flex flex-col justify-center items-center  '>
             <Repository repositories={repos} />
           </div>
         </div>

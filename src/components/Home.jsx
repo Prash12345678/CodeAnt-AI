@@ -172,7 +172,7 @@ function Home({ onMenuClick }) {
             </button>
           </div>
 
-          <div className='w-full h-[208px] flex flex-col justify-center items-start gap-1 px-6 border-t border-b border-[#E9EAEB] lg:border-none'>
+          <div className='w-full h-[208px] flex flex-col justify-center items-start gap-1 px-6 lg:px-10 border-t border-b border-[#E9EAEB] lg:border-none'>
             <div className='font-semibold font-sans text-3xl lg:hidden'>Repositories</div>
             <div className='font-thin text-[#414651] font-sans text-lg lg:hidden'>{repos.length} total repositories</div>
             <div className='flex items-center justify-start gap-3 mt-2 lg:hidden'>
@@ -207,7 +207,7 @@ function Home({ onMenuClick }) {
             </div>
           </div>
 
-          <div className='w-full h-auto bg-white flex flex-col justify-center items-center  '>
+          <div className='w-full h-auto bg-white flex flex-col justify-center items-center lg:px-6 '>
             <Repository repositories={repos} />
           </div>
         </div>

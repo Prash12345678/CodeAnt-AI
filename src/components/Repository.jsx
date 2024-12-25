@@ -1,7 +1,7 @@
 import React from 'react'
 import { Database } from 'lucide-react'
 
-// border-[#D5D7DA]
+
 function Repository({repositories}) {
   return (
     repositories.map((repo)=>(
